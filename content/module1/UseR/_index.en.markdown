@@ -6,7 +6,7 @@ output:
 weight: 5
 ---
 
-The RStudio window has multiple panes. [RStudio IDE Cheet Sheet](https://www.rstudio.com/wp-content/uploads/2016/01/rstudio-IDE-cheatsheet.pdf):
+The RStudio window has multiple panes. [RStudio IDE Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/01/rstudio-IDE-cheatsheet.pdf):
 
 ![Red variant](/day1/UseR/images/RStudio1.png?width=40pc)
 
@@ -24,11 +24,11 @@ You should take note of the following facts:
 
 - R is case-sensitive language which executes instructions directly; 
 - Commands are entered at prompt `>`
-- Commands are separate statements which could be put the in a same line if separated by a semi-colon `;`
+- Commands are separate statements which could be put in the same line if separated by a semi-colon `;`
 - Code statements can be commented by using a `#` tag. You can comment in continuation of the command line or in a separate line.
 
 {{% notice tip %}}
-💡 The best way to learn is by doing. Therefore, I would like you <span style="color:red">not to copy paste the commands showing in the black boxes</span>, but to <span style="color:red">type it in your R console</span>. It would be even better to type it as an R script, so that you can keep a history of it and return to it if you wish to do so.
+💡 The best way to learn is by doing. Therefore, I would like you <span style="color:red">not to copy paste the commands shown in the black boxes</span>, but to <span style="color:red">type it in your R console</span>. It would be even better to type it as an R script, so that you can keep a history of it and return to it if you wish.
 {{% /notice %}}
 
 ## Let's start using R! 
@@ -48,11 +48,12 @@ setwd("C:/Documents/MyR_Project")
 # On a mac, you would set working directory like this
 setwd("~/documents/MyR_Project")
 ```
+
 {{% notice warning %}}
 🤓💡: Make sure you fully adopt the correct syntax in terms of slashes and quotation marks.
 {{% /notice %}}
 
-Note that the current working directory is displayed by RStudio within the title region of the Console. You can also setup your working directory by:
+Note that the current working directory is displayed by RStudio within the title region of the Console. You can also set up your working directory by:
 
 - selecting the options available from RStudio's main menu 
 
@@ -66,7 +67,7 @@ Use the **More | Set As Working Directory** menu
 
 ![Red variant](/day1/UseR/images/SetWD1.png?width=20pc)
 
-However, you should always start a fresh project (**File | New Project...**) that would automatically set up your working directory without having to point to it in your script file. You should read [Project-oriented workflow 💻🔥](https://www.tidyverse.org/articles/2017/12/workflow-vs-script/) article by [Jenny Bryan](https://jennybryan.org/) to convince yourself that this would be a good habit you should adopt. 
+However, you should always start a fresh project (**File | New Project...**) that will automatically set up your working directory without having to point to it in your script file. You should read the [Project-oriented workflow 💻🔥](https://www.tidyverse.org/articles/2017/12/workflow-vs-script/) article by [Jenny Bryan](https://jennybryan.org/) to convince yourself that this would be a good habit you should adopt. 
 
 ## R Packages
 
@@ -74,7 +75,7 @@ However, you should always start a fresh project (**File | New Project...**) tha
 
 R packages are collections of functions code, data sets, documentation and tests developed by the community, that are mostly made available on the <span style="color:red">C</span>omprehensive <span style="color:red">R</span> <span style="color:red">A</span>rchive <span style="color:red">N</span>etwork, or <span style="color:red">CRAN</span>, the public clearing house for R packages. These packages are developed by experts in their fields and currently the CRAN package repository features over 14,000 of them. Many of the analyses that they offer are not even available in any of the standard data analysis software packages, which is one of the reasons that R is so successful.  
 
-When you run R you will authomatically upload the [`package:base`](https://www.rstudio.com/wp-content/uploads/2016/05/base-r.pdf), which is the system library, i.e. the package where all standard functions are defined. The rest of the so called *base packages* contain the basic statistical routines. Assuming that you are connected to the internet, you can install a package using `install.packages()`. From the RStudio menu you can do it by sellecting **Tools | Install Packages...** and typing the name of the desired package in the dialogue window.
+When you run R you will automatically upload the [`package:base`](https://www.rstudio.com/wp-content/uploads/2016/05/base-r.pdf), which is the system library, i.e. the package where all standard functions are defined. The rest of the so called *base packages* contain the basic statistical routines. Assuming that you are connected to the internet, you can install a package using `install.packages()`. From the RStudio menu you can do it by sellecting **Tools | Install Packages...** and typing the name of the desired package in the dialogue window.
 
 ![Red variant](/day1/UseR/images/InstallPckg.png?width=20pc)
 
@@ -83,7 +84,7 @@ Once installed, the package will appear in the list of available packages in you
 ![Red variant](/day1/UseR/images/Packages.png?width=20pc)
 
 {{% notice note %}}
-💡: Note that you can call the dialog window to install a package from **Packages pane**! Have you spotted the *Install* icon yet?
+💡: Note that you can call the dialogue window to install a package from **Packages pane**! Have you spotted the *Install* icon yet?
 {{% /notice %}}
 
 ## Calculate in R
@@ -228,7 +229,7 @@ p
 
 #### Vectors
 
-When analysing data you are more likely to be working with lots of numbers/variables. It would be much more convenient to keep all of those numbers/variables as an object. Variables can be of a different type: logical, integer, double, string are some examples. <span style="color:red">Variables with one or more values of the same type are **vectors**</span>. Hence, <span style="color:red">a variable with a single value</span> (known to us as a <span style="color:red">**scalar**</span>) is a vector of length 1. We can assign to vectors in many different ways:
+When analysing data you are more likely to be working with lots of numbers/variables. It would be much more convenient to keep all of those numbers/variables as an object. Variables can be of different types: logical, integer, double, string are some examples. <span style="color:red">Variables with one or more values of the same type are **vectors**</span>. Hence, <span style="color:red">a variable with a single value</span> (known to us as a <span style="color:red">**scalar**</span>) is a vector of length 1. We can assign to vectors in many different ways:
 
 * generated by R using the colon symbol (`:`) as a sequence generated operator or by using built in function `rep()` for replicating the given number for a given number of times.
 
@@ -363,9 +364,9 @@ z*p
 ## [11]   5.00   5.00   5.00 252.50 502.50 752.50
 ```
 
-##### Accessing Vector’s Elements
+##### Accessing A Vector’s Elements
 
-To access a specific element of a vector you would <span style="color:red">use index inside a single square bracket **[]** operator</span>. The following shows how to obtain a vector member. The vector index is 1-based, thus use the index position 4 to access the fourth element.
+To access a specific element of a vector you would <span style="color:red">use index inside a single square bracket **[]** operator</span>. The following shows how to obtain a vector member. The vector index is 1-based, thus use index position 4 to access the fourth element.
 
 
 ```r
@@ -575,9 +576,9 @@ Practise by doing the following set of exercises:
 `matrix(c(1, 5, 9, 2, 6, 10, 3, 7, 11, 4, 8, 12), nrow = 4, 
 ncol = 3, byrow = TRUE)`
 
-7) Use a subscript to find the `2`-nd number in vector `x1` and `x2` and element in the `2`-nd raw and `3`-rd column in matrix `m1`.
+7) Use a subscript to find the `2`-nd number in vector `x1` and `x2` and element in the `2`-nd row and `3`-rd column in matrix `m1`.
 
-8) Add the `5`-th number in vector `x1` to the element in matrix `m1` which is in `1`-st raw and `1`-st column.
+8) Add the `5`-th number in vector `x1` to the element in matrix `m1` which is in `1`-st row and `1`-st column.
 
 9) Calculate the mean of all numbers in `x3` that are less than 13.
 

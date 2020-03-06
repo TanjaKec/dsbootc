@@ -12,18 +12,18 @@
     <title>How to use R? :: DS Bootcamp in R</title>
 
     
-    <link href="/css/nucleus.css?1583484221" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1583484221" rel="stylesheet">
-    <link href="/css/hybrid.css?1583484221" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1583484221" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1583484221" rel="stylesheet">
-    <link href="/css/auto-complete.css?1583484221" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1583484221" rel="stylesheet">
-    <link href="/css/theme.css?1583484221" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1583484221" rel="stylesheet">
+    <link href="/css/nucleus.css?1583494785" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1583494785" rel="stylesheet">
+    <link href="/css/hybrid.css?1583494785" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1583494785" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1583494785" rel="stylesheet">
+    <link href="/css/auto-complete.css?1583494785" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1583494785" rel="stylesheet">
+    <link href="/css/theme.css?1583494785" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1583494785" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1583484221"></script>
+    <script src="/js/jquery-3.3.1.min.js?1583494785"></script>
 
     <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML"> </script>
 
@@ -59,14 +59,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1583484221"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1583484221"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1583494785"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1583494785"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1583484221"></script>
+<script type="text/javascript" src="/js/search.js?1583494785"></script>
 
     
   </div>
@@ -579,7 +579,7 @@
 
 
 
-	<p>The RStudio window has multiple panes. <a href="https://www.rstudio.com/wp-content/uploads/2016/01/rstudio-IDE-cheatsheet.pdf">RStudio IDE Cheet Sheet</a>:</p>
+	<p>The RStudio window has multiple panes. <a href="https://www.rstudio.com/wp-content/uploads/2016/01/rstudio-IDE-cheatsheet.pdf">RStudio IDE Cheat Sheet</a>:</p>
 <p><img src="/day1/UseR/images/RStudio1.png?width=40pc" alt="Red variant"></p>
 <p><strong>Top Left -</strong> <!-- raw HTML omitted -->Code Editor<!-- raw HTML omitted -->:  for creating scripts to run in pieces or as a whole (like this document!);</p>
 <p><strong>Bottom Left -</strong> <!-- raw HTML omitted -->R Console<!-- raw HTML omitted -->:  you can type R commands and see output;</p>
@@ -590,11 +590,11 @@
 <ul>
 <li>R is case-sensitive language which executes instructions directly;</li>
 <li>Commands are entered at prompt <code>&gt;</code></li>
-<li>Commands are separate statements which could be put the in a same line if separated by a semi-colon <code>;</code></li>
+<li>Commands are separate statements which could be put in the same line if separated by a semi-colon <code>;</code></li>
 <li>Code statements can be commented by using a <code>#</code> tag. You can comment in continuation of the command line or in a separate line.</li>
 </ul>
 
-<div class="notices tip" ><p>💡 The best way to learn is by doing. Therefore, I would like you <!-- raw HTML omitted -->not to copy paste the commands showing in the black boxes<!-- raw HTML omitted -->, but to <!-- raw HTML omitted -->type it in your R console<!-- raw HTML omitted -->. It would be even better to type it as an R script, so that you can keep a history of it and return to it if you wish to do so.</p>
+<div class="notices tip" ><p>💡 The best way to learn is by doing. Therefore, I would like you <!-- raw HTML omitted -->not to copy paste the commands shown in the black boxes<!-- raw HTML omitted -->, but to <!-- raw HTML omitted -->type it in your R console<!-- raw HTML omitted -->. It would be even better to type it as an R script, so that you can keep a history of it and return to it if you wish.</p>
 </div>
 
 <h2 id="lets-start-using-r">Let's start using R!</h2>
@@ -614,7 +614,7 @@
 <div class="notices warning" ><p>🤓💡: Make sure you fully adopt the correct syntax in terms of slashes and quotation marks.</p>
 </div>
 
-<p>Note that the current working directory is displayed by RStudio within the title region of the Console. You can also setup your working directory by:</p>
+<p>Note that the current working directory is displayed by RStudio within the title region of the Console. You can also set up your working directory by:</p>
 <ul>
 <li>selecting the options available from RStudio's main menu</li>
 </ul>
@@ -625,16 +625,16 @@
 </ul>
 <p>Use the <strong>More | Set As Working Directory</strong> menu</p>
 <p><img src="/day1/UseR/images/SetWD1.png?width=20pc" alt="Red variant"></p>
-<p>However, you should always start a fresh project (<strong>File | New Project&hellip;</strong>) that would automatically set up your working directory without having to point to it in your script file. You should read <a href="https://www.tidyverse.org/articles/2017/12/workflow-vs-script/">Project-oriented workflow 💻🔥</a> article by <a href="https://jennybryan.org/">Jenny Bryan</a> to convince yourself that this would be a good habit you should adopt.</p>
+<p>However, you should always start a fresh project (<strong>File | New Project&hellip;</strong>) that will automatically set up your working directory without having to point to it in your script file. You should read the <a href="https://www.tidyverse.org/articles/2017/12/workflow-vs-script/">Project-oriented workflow 💻🔥</a> article by <a href="https://jennybryan.org/">Jenny Bryan</a> to convince yourself that this would be a good habit you should adopt.</p>
 <h2 id="r-packages">R Packages</h2>
 <p><em>&ldquo;In R, the fundamental unit of shareable code is the package.&quot;</em> <a href="http://r-pkgs.had.co.nz/intro.html">Hadley Wickham, <em>R packages</em></a></p>
 <p>R packages are collections of functions code, data sets, documentation and tests developed by the community, that are mostly made available on the <!-- raw HTML omitted -->C<!-- raw HTML omitted -->omprehensive <!-- raw HTML omitted -->R<!-- raw HTML omitted --> <!-- raw HTML omitted -->A<!-- raw HTML omitted -->rchive <!-- raw HTML omitted -->N<!-- raw HTML omitted -->etwork, or <!-- raw HTML omitted -->CRAN<!-- raw HTML omitted -->, the public clearing house for R packages. These packages are developed by experts in their fields and currently the CRAN package repository features over 14,000 of them. Many of the analyses that they offer are not even available in any of the standard data analysis software packages, which is one of the reasons that R is so successful.</p>
-<p>When you run R you will authomatically upload the <a href="https://www.rstudio.com/wp-content/uploads/2016/05/base-r.pdf"><code>package:base</code></a>, which is the system library, i.e. the package where all standard functions are defined. The rest of the so called <em>base packages</em> contain the basic statistical routines. Assuming that you are connected to the internet, you can install a package using <code>install.packages()</code>. From the RStudio menu you can do it by sellecting <strong>Tools | Install Packages&hellip;</strong> and typing the name of the desired package in the dialogue window.</p>
+<p>When you run R you will automatically upload the <a href="https://www.rstudio.com/wp-content/uploads/2016/05/base-r.pdf"><code>package:base</code></a>, which is the system library, i.e. the package where all standard functions are defined. The rest of the so called <em>base packages</em> contain the basic statistical routines. Assuming that you are connected to the internet, you can install a package using <code>install.packages()</code>. From the RStudio menu you can do it by sellecting <strong>Tools | Install Packages&hellip;</strong> and typing the name of the desired package in the dialogue window.</p>
 <p><img src="/day1/UseR/images/InstallPckg.png?width=20pc" alt="Red variant"></p>
 <p>Once installed, the package will appear in the list of available packages in your <strong>Packages pane</strong>. To use it you have to load it to the system’s search path by simply typing the name of the package as an argument of the <code>library()</code> function, or by checking the box next to its name from the <strong>Packages pane</strong>.</p>
 <p><img src="/day1/UseR/images/Packages.png?width=20pc" alt="Red variant"></p>
 
-<div class="notices note" ><p>💡: Note that you can call the dialog window to install a package from <strong>Packages pane</strong>! Have you spotted the <em>Install</em> icon yet?</p>
+<div class="notices note" ><p>💡: Note that you can call the dialogue window to install a package from <strong>Packages pane</strong>! Have you spotted the <em>Install</em> icon yet?</p>
 </div>
 
 <h2 id="calculate-in-r">Calculate in R</h2>
@@ -719,7 +719,7 @@ p
 </div>
 
 <h4 id="vectors">Vectors</h4>
-<p>When analysing data you are more likely to be working with lots of numbers/variables. It would be much more convenient to keep all of those numbers/variables as an object. Variables can be of a different type: logical, integer, double, string are some examples. <!-- raw HTML omitted -->Variables with one or more values of the same type are <strong>vectors</strong><!-- raw HTML omitted -->. Hence, <!-- raw HTML omitted -->a variable with a single value<!-- raw HTML omitted --> (known to us as a <!-- raw HTML omitted --><strong>scalar</strong><!-- raw HTML omitted -->) is a vector of length 1. We can assign to vectors in many different ways:</p>
+<p>When analysing data you are more likely to be working with lots of numbers/variables. It would be much more convenient to keep all of those numbers/variables as an object. Variables can be of different types: logical, integer, double, string are some examples. <!-- raw HTML omitted -->Variables with one or more values of the same type are <strong>vectors</strong><!-- raw HTML omitted -->. Hence, <!-- raw HTML omitted -->a variable with a single value<!-- raw HTML omitted --> (known to us as a <!-- raw HTML omitted --><strong>scalar</strong><!-- raw HTML omitted -->) is a vector of length 1. We can assign to vectors in many different ways:</p>
 <ul>
 <li>generated by R using the colon symbol (<code>:</code>) as a sequence generated operator or by using built in function <code>rep()</code> for replicating the given number for a given number of times.</li>
 </ul>
@@ -773,8 +773,8 @@ z
 z<span style="color:#f92672">*</span>p
 </code></pre></div><pre><code>##  [1]   5.00   6.25   7.50   8.75  10.00  11.25  12.50  13.75  15.00  16.25
 ## [11]   5.00   5.00   5.00 252.50 502.50 752.50
-</code></pre><h5 id="accessing-vectors-elements">Accessing Vector’s Elements</h5>
-<p>To access a specific element of a vector you would <!-- raw HTML omitted -->use index inside a single square bracket <strong>[]</strong> operator<!-- raw HTML omitted -->. The following shows how to obtain a vector member. The vector index is 1-based, thus use the index position 4 to access the fourth element.</p>
+</code></pre><h5 id="accessing-a-vectors-elements">Accessing A Vector’s Elements</h5>
+<p>To access a specific element of a vector you would <!-- raw HTML omitted -->use index inside a single square bracket <strong>[]</strong> operator<!-- raw HTML omitted -->. The following shows how to obtain a vector member. The vector index is 1-based, thus use index position 4 to access the fourth element.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">x <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">9</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">7</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">9</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">6</span>)
 x
 </code></pre></div><pre><code>##  [1] 9 3 7 2 9 2 1 5 4 6
@@ -864,10 +864,10 @@ ma1
 <code>matrix(c(1, 5, 9, 2, 6, 10, 3, 7, 11, 4, 8, 12), nrow = 4,  ncol = 3, byrow = TRUE)</code></p>
 </li>
 <li>
-<p>Use a subscript to find the <code>2</code>-nd number in vector <code>x1</code> and <code>x2</code> and element in the <code>2</code>-nd raw and <code>3</code>-rd column in matrix <code>m1</code>.</p>
+<p>Use a subscript to find the <code>2</code>-nd number in vector <code>x1</code> and <code>x2</code> and element in the <code>2</code>-nd row and <code>3</code>-rd column in matrix <code>m1</code>.</p>
 </li>
 <li>
-<p>Add the <code>5</code>-th number in vector <code>x1</code> to the element in matrix <code>m1</code> which is in <code>1</code>-st raw and <code>1</code>-st column.</p>
+<p>Add the <code>5</code>-th number in vector <code>x1</code> to the element in matrix <code>m1</code> which is in <code>1</code>-st row and <code>1</code>-st column.</p>
 </li>
 <li>
 <p>Calculate the mean of all numbers in <code>x3</code> that are less than 13.</p>
@@ -1155,19 +1155,19 @@ ma1
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1583484221"></script>
-    <script src="/js/perfect-scrollbar.min.js?1583484221"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1583484221"></script>
-    <script src="/js/jquery.sticky.js?1583484221"></script>
-    <script src="/js/featherlight.min.js?1583484221"></script>
-    <script src="/js/highlight.pack.js?1583484221"></script>
+    <script src="/js/clipboard.min.js?1583494785"></script>
+    <script src="/js/perfect-scrollbar.min.js?1583494785"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1583494785"></script>
+    <script src="/js/jquery.sticky.js?1583494785"></script>
+    <script src="/js/featherlight.min.js?1583494785"></script>
+    <script src="/js/highlight.pack.js?1583494785"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1583484221"></script>
-    <script src="/js/learn.js?1583484221"></script>
-    <script src="/js/hugo-learn.js?1583484221"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1583494785"></script>
+    <script src="/js/learn.js?1583494785"></script>
+    <script src="/js/hugo-learn.js?1583494785"></script>
 
-    <link href="/mermaid/mermaid.css?1583484221" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1583484221"></script>
+    <link href="/mermaid/mermaid.css?1583494785" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1583494785"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

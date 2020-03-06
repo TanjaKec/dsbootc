@@ -24,11 +24,11 @@ Version control has become an essential tool for keeping track when working on D
 ## How the course works
 
 #### Teaching and Learning Strategy
-The material is structured within four weekly modules. Each module is a day-long lesson split into morning (part I) and afternoon sessions (part II).  
+The material is structured within four weekly modules. Each module is a day-long lesson split into morning (part I) and afternoon (part II) sessions.  
   
 -  10:00 – 13:00: delivery part I
 -  13:00 – 13:45: lunch break
--  13:45 – 17:00: deliver part II
+-  13:45 – 17:00: delivery part II
 -  17:00 – 18:00: question/answer time
 
 Each module will be taught by Dr Tatjana Kecojevic and will cover various related topics through appropriate case studies, presentations, readings and discussion forums. Essential data handling and statistical modelling techniques are introduced during the teaching sessions. Students are then expected to use their own time to deepen their understanding of the data models presented in the session. The conceptual models come to life when practice becomes reality during the hands on taught sessions, through the application of R. Students are then expected to use their own time to practise and hone the data handling expertise acquired during the taught sessions. Students are given the opportunity to test their knowledge, both conceptual and practical, on a weekly basis through interactive student/teacher workshops.
@@ -45,7 +45,7 @@ We recommend you complete each of the following before the end of each week:
 
 This course is for people from varying backgrounds and diverse profiles. It is designed for people who recognise the paramount importance of data and its use.    
 
-This course will benefit anyone who has the curiosity and desire to enter the realm of data science.  We will make sense of the world of data and learn effective and attractive ways to visually analyse and communicate related information. With the knowledge gained in this course, you will be ready to undertake your very own data analysis for the first time. 
+This course will benefit anyone who has the curiosity and desire to enter the realm of data science.  We will make sense of the world of data and learn effective and attractive ways to visually analyse and communicate related information. With the knowledge gained on this course, you will be ready to undertake your very own data analysis for the first time. 
 
 Data Science is not simply fashionable jargon, but rather a discipline with a set of tools that empower data enriched living, so whatever industry you’re in, this is relevant to you!
 

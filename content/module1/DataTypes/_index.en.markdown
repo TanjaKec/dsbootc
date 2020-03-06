@@ -40,7 +40,7 @@ mode(x)
 ## [1] "character"
 ```
 
-It is common in statistical data to have attributes also known as categorical variables. In R such variables should be specified as **factors**. Attribute variable has a set of levels indicating possible outcomes. Hence, to deal with x as an attribute variable with five levels we need to make it a factor in R.
+It is common in statistical data to have attributes also known as categorical variables. In R such variables should be specified as **factors**. An attribute variable has a set of levels indicating possible outcomes. Hence, to deal with x as an attribute variable with five levels we need to make it a factor in R.
 
 
 ```r

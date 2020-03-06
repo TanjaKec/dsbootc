@@ -21,7 +21,7 @@ Run the installation
 ![Red variant](/day1/installR/images/InstallR.png?width=40pc)
 
 
-Your R Counsole should look something like this:
+Your R Console should look something like this:
 
 ![Red variant](/day1/installR/images/RConsole.png?width=30pc)
 
@@ -36,7 +36,7 @@ RStudio Desktop - <http://www.rstudio.com>
 RStudio is an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and work-space management. You can check its features by visiting [RSTudio website](https://www.rstudio.com/products/rstudio/features/).
 
 {{% notice note %}}
-We recomend you check regularly for R/Rstudio updates.
+We recommend you check regularly for R/Rstudio updates.
 {{% /notice %}}
 
 -----------------------------

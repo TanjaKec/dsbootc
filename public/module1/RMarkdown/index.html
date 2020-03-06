@@ -12,18 +12,18 @@
     <title>Reproducibility :: DS Bootcamp in R</title>
 
     
-    <link href="/css/nucleus.css?1583484221" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1583484221" rel="stylesheet">
-    <link href="/css/hybrid.css?1583484221" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1583484221" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1583484221" rel="stylesheet">
-    <link href="/css/auto-complete.css?1583484221" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1583484221" rel="stylesheet">
-    <link href="/css/theme.css?1583484221" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1583484221" rel="stylesheet">
+    <link href="/css/nucleus.css?1583494785" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1583494785" rel="stylesheet">
+    <link href="/css/hybrid.css?1583494785" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1583494785" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1583494785" rel="stylesheet">
+    <link href="/css/auto-complete.css?1583494785" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1583494785" rel="stylesheet">
+    <link href="/css/theme.css?1583494785" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1583494785" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1583484221"></script>
+    <script src="/js/jquery-3.3.1.min.js?1583494785"></script>
 
     <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML"> </script>
 
@@ -59,14 +59,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1583484221"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1583484221"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1583494785"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1583494785"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1583484221"></script>
+<script type="text/javascript" src="/js/search.js?1583494785"></script>
 
     
   </div>
@@ -552,7 +552,7 @@
         <li><a href="#starting-with-rmarkdown">Starting with RMarkdown</a></li>
         <li><a href="#taking-a-step-further">Taking a Step Further</a></li>
         <li><a href="#why-use-git">Why use Git?</a></li>
-        <li><a href="#why-to-use-a-hosting-service-like-github">Why to use a Hosting Service Like Github</a></li>
+        <li><a href="#why-use-a-hosting-service-like-github">Why use a Hosting Service Like Github</a></li>
       </ul>
     </li>
   </ul>
@@ -599,7 +599,7 @@
 <p>If you notice a data error how easy would it be to re-create the analysis?</p>
 </li>
 <li>
-<p>Your collaborator is no longer available?</p>
+<p>What if your collaborator is no longer available?</p>
 </li>
 </ul>
 </li>
@@ -650,14 +650,14 @@
 </code></pre></div><h3 id="rmarkdown-appreciation">RMarkdown Appreciation</h3>
 <p>Before we start learning about <code>RMarkdown</code> let us do an exercise of RMarkdown appreciation 😇</p>
 <h4 id="-go-to-the-following-github-repo-to-download-the-material-httpsgithubcomtanjakecrmarkdown4rr">👉 Go to the following GitHub repo to download the material: <a href="https://github.com/TanjaKec/RMarkdown4RR">https://github.com/TanjaKec/RMarkdown4RR</a></h4>
-<p>Inside the data folder you will find the follwing <code>csv</code> files:</p>
+<p>Inside the data folder you will find the following <code>csv</code> files:</p>
 <ul>
 <li>athlete_events.csv</li>
 <li>noc_regions.csv</li>
 <li>exyu_olympic.csv</li>
 </ul>
 
-<div class="notices info" ><p>Split into groups of three and discuss how would you produce a Word document or a PowerPoint presentation to present your finding for the following problem:</p>
+<div class="notices info" ><p>Split into groups of three and discuss how you would produce a Word document or a PowerPoint presentation to present your findings for the following problem:</p>
 </div>
 
 <p>Open the <code>exyu_olympic.csv</code> file in the Excel and try to:</p>
@@ -691,7 +691,7 @@ Let’s format this document further by</p>
 <p>Changing the author of the document to your own name</p>
 </li>
 <li>
-<p>Rewriting the first sentence of the document to say &ldquo;This is my first R Markdown document.&quot;.</p>
+<p>Rewriting the first sentence of the document to say &ldquo;This is my first R Markdown document&rdquo;</p>
 </li>
 <li>
 <p>Recompiling the document so you can see your changes</p>
@@ -731,7 +731,7 @@ that come before it.</p>
 <ul>
 <li>Make the following paragraph in your Rmd document look like this:</li>
 </ul>
-<p>When analysing data,&hellip; The variables can be one of two broad types:</p>
+<p>When analysing data&hellip; The variables can be one of two broad types:</p>
 <ol>
 <li>
 <p><strong>Attribute variable</strong>: has its outcomes described in terms of its characteristics or
@@ -778,7 +778,7 @@ prevent printing of the R code that generates the plot:</p>
         plot.title<span style="color:#f92672">=</span><span style="color:#a6e22e">element_text</span>(hjust<span style="color:#f92672">=</span><span style="color:#ae81ff">0.5</span>))    
 </code></pre></div><h4 id="adding-latex-equations">Adding <strong>LaTex</strong> equations</h4>
 <p>Finally, if you wish to add mathematical equations to your Markdown document you can easily embed <a href="LaTeX">LaTeX</a> math equations into your report.</p>
-<p>To <em>display equation</em> <strong>in its own line</strong> it needs to be surrounded by the double dollar symbol:</p>
+<p>To <em>display an equation</em> <strong>in its own line</strong> it needs to be surrounded by the double dollar symbol:</p>
 <p><code>$$` </code>y = a + bx<code> </code>$$`,</p>
 <p>or to <em>embed an equation</em> <strong>in line within the text</strong> you would use only one dollar symbol: <code>$y = a + bx$</code>.</p>
 <p><strong><!-- raw HTML omitted -->Task 7<!-- raw HTML omitted --></strong>: Display the equation in the <em>Including Mathematical Equations</em> paragraph into its own line.</p>
@@ -794,7 +794,7 @@ prevent printing of the R code that generates the plot:</p>
 <p><strong>File <code>01_rmdApprec.Rmd</code></strong> incorporates the R code given in <code>R/script1.R</code> file. Open this <code>Rmd</code> file and check its metadata. Try to play around with the document's layout by changing some of the features, such as the table of contents (TOC) using the toc option or theme (for more available themes you can use see the blog post <a href="http://www.datadreaming.org/post/r-markdown-theme-gallery/">r-markdown-theme-gallery</a>.</p>
 </li>
 <li>
-<p><strong>File <code>02_rmdApprec.Rmd</code></strong> enables you to create scientific and technical writing, native to the web by using Distill Basics template. For more see <a href="https://rstudio.github.io/distill/basics.html">https://rstudio.github.io/distill/basics.html</a>.</p>
+<p><strong>File <code>02_rmdApprec.Rmd</code></strong> enables you to create scientific and technical writing, native to the web by using the Distill Basics template. For more see <a href="https://rstudio.github.io/distill/basics.html">https://rstudio.github.io/distill/basics.html</a>.</p>
 </li>
 <li>
 <p><strong>File <code>03_rmdApprec.Rmd</code></strong> shows you how to add a static image file to your document. You should check the following blog post <a href="http://zevross.com/blog/2017/06/19/tips-and-tricks-for-working-with-images-and-figures-in-r-markdown-documents/">Tips and tricks for working with images and figures in R Markdown documents</a> by <a href="http://www.zevross.com">Zev Ross</a>.</p>
@@ -810,7 +810,7 @@ prevent printing of the R code that generates the plot:</p>
 </li>
 </ul>
 <p>Install the <a href="https://github.com/rstudio/rticles"><code>rticles</code></a> package to get all of the available <code>rmd</code> templates for various paper articles.</p>
-<p>R is a powerful tool for reproducible research. There are many other packages that you could also use for sharing your work. Creating Shiny application using the <a href="https://shiny.rstudio.com">R::Shiny</a>  package is a nice way of engaging with the audience while sharing your work. Here is an example of a reproducible research of the problem used in the <a href="https://tatjanakec.shinyapps.io/permutation_bootstrap/_w_dc1f9850/Bootstrap_WhatTeacherShouldKnow.pdf">Resampling in the Undergraduate Statistics Curriculum</a> paper:</p>
+<p>R is a powerful tool for reproducible research. There are many other packages that you could also use for sharing your work. Creating Shiny application using the <a href="https://shiny.rstudio.com">R::Shiny</a>  package is a nice way of engaging with the audience while sharing your work. Here is an example of reproducible research of the problem used in the <a href="https://tatjanakec.shinyapps.io/permutation_bootstrap/_w_dc1f9850/Bootstrap_WhatTeacherShouldKnow.pdf">Resampling in the Undergraduate Statistics Curriculum</a> paper:</p>
 <p><a href="https://tatjanakec.shinyapps.io/permutation_bootstrap/">https://tatjanakec.shinyapps.io/permutation_bootstrap/</a></p>
 
 <div class="notices note" ><p>Reproducible research should not be a burden for anybody who takes their research seriously. If nothing else, the good habits of reproducibility may actually turn out to be a time-saver in the longer run for any research practitioner.</p>
@@ -831,7 +831,7 @@ prevent printing of the R code that generates the plot:</p>
 <p>Takes up minimal space</p>
 </li>
 </ul>
-<h3 id="why-to-use-a-hosting-service-like-github">Why to use a Hosting Service Like Github</h3>
+<h3 id="why-use-a-hosting-service-like-github">Why use a Hosting Service Like Github</h3>
 <ul>
 <li>
 <p>Backup of your project</p>
@@ -853,7 +853,7 @@ prevent printing of the R code that generates the plot:</p>
 <p>We'll go through the basic steps of connecting RStudio with your GitHub account, but for more detailed instructions you shoul check <a href="http://happygitwithr.com">Happy Git dwith R</a>.</p>
 <p><!-- raw HTML omitted --></p>
 <p>We are going to assume you are already familiar with and have done:</p>
-<p>☑️ Capter 5: <a href="http://happygitwithr.com/github-acct.html">Registerh a GitHub account </a></p>
+<p>☑️ Chapter 5: <a href="http://happygitwithr.com/github-acct.html">Register a GitHub account </a></p>
 <p>☑️ Chapter 6: <a href="http://happygitwithr.com/install-r-rstudio.html">Install or upgrade R and RStudio </a></p>
 <ul>
 <li>Go to your GitHub account and create a new repository</li>
@@ -882,7 +882,7 @@ prevent printing of the R code that generates the plot:</p>
 <li>
 <p>Paste the address of your Git repo<br>
 <!-- raw HTML omitted -->
-and check the box for <code>Open in new session</code> before you hit <code>Create Project</code> bthe utton.</p>
+and check the box for <code>Open in new session</code> before you hit the <code>Create Project</code> button.</p>
 </li>
 </ul>
 <p>You're ready to go! 😃</p>
@@ -1189,19 +1189,19 @@ and check the box for <code>Open in new session</code> before you hit <code>Crea
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1583484221"></script>
-    <script src="/js/perfect-scrollbar.min.js?1583484221"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1583484221"></script>
-    <script src="/js/jquery.sticky.js?1583484221"></script>
-    <script src="/js/featherlight.min.js?1583484221"></script>
-    <script src="/js/highlight.pack.js?1583484221"></script>
+    <script src="/js/clipboard.min.js?1583494785"></script>
+    <script src="/js/perfect-scrollbar.min.js?1583494785"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1583494785"></script>
+    <script src="/js/jquery.sticky.js?1583494785"></script>
+    <script src="/js/featherlight.min.js?1583494785"></script>
+    <script src="/js/highlight.pack.js?1583494785"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1583484221"></script>
-    <script src="/js/learn.js?1583484221"></script>
-    <script src="/js/hugo-learn.js?1583484221"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1583494785"></script>
+    <script src="/js/learn.js?1583494785"></script>
+    <script src="/js/hugo-learn.js?1583494785"></script>
 
-    <link href="/mermaid/mermaid.css?1583484221" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1583484221"></script>
+    <link href="/mermaid/mermaid.css?1583494785" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1583494785"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
