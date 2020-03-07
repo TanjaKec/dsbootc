@@ -88,7 +88,7 @@ First we will start by setting up SSH keys that will allow you to securely commu
 You can read about how to use GitHub further by exploring [`Chapter 9: Connect to GitHub`](https://happygitwithr.com/push-pull-github.html) chapter in [Jenny's](https://jennybryan.org) book [Happy Git and GitHub for the useR](https://happygitwithr.com/index.html).
 
 {{% notice tip %}}
-You might find it useful bookmarking the link for [GitHub Cheet Sheet](https://education.github.com/git-cheat-sheet-education.pdf)!
+You might find it useful bookmarking the link for [GitHub Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)!
 {{% /notice %}}
 
 -----------------------------
