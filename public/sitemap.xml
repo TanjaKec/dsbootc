@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/module2/datawrangling/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/general/whatlearn/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
   </url>
@@ -27,7 +32,17 @@
   </url>
   
   <url>
+    <loc>/module2/principlesvisualisation/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/module1/</loc>
+  </url>
+  
+  <url>
+    <loc>/module2/visualisation/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
   </url>
   
   <url>
@@ -38,6 +53,15 @@
   <url>
     <loc>/general/syllabus/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/module2/spatialda/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/module2/</loc>
   </url>
   
   <url>
@@ -68,6 +92,11 @@
   <url>
     <loc>/module1/rmarkdown/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/module2/spatialda/images/mokrin/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
