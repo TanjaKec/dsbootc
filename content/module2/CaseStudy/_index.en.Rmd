@@ -328,7 +328,7 @@ mydata_bg %>%
         plot.title=element_text(hjust=0.5)) 
 ```
 
-The data is quite messy, with a number of very extreme readings, which is why we “chopped” the axis using the `xlim()` and the `ylim()` functions after checking the distributions of the two variables. This is a part of informal investigation of the possible relationship between `pm10` and `pressure`, and a more rigorous procedure should be adopted which is beyond the scope of this workshop.
+The data is quite messy, with a number of very extreme readings, which is why we “chopped” the axis using the `xlim()` and the `ylim()` functions after checking the distributions of the two variables. This is a part of informal investigation of the possible relationship between `pm10` and `pressure`, and a more rigorous procedure should be adopted which is beyond the scope of module2's lesson.
 
 **pm10 vs humidity**
 
