@@ -65,6 +65,11 @@
   </url>
   
   <url>
+    <loc>/module2/casestudy/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/module1/rstudioide/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
   </url>
@@ -92,6 +97,11 @@
   <url>
     <loc>/module1/rmarkdown/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/module2/casestudy/images/mokrin/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
