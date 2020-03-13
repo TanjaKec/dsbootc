@@ -328,7 +328,7 @@ mydata_bg %>%
         plot.title=element_text(hjust=0.5)) 
 ```
 
-The data is quite messy, with a number of very extreme readings, which is why we “chopped” the axis using the `xlim()` and the `ylim()` functions after checking the distributions of the two variables. This is a part of informal investigation of the possible relationship between `pm10` and `pressure`, and a more rigorous procedure should be adopted which is beyond the scope of this workshop.
+The data is quite messy, with a number of very extreme readings, which is why we “chopped” the axis using the `xlim()` and the `ylim()` functions after checking the distributions of the two variables. This is a part of informal investigation of the possible relationship between `pm10` and `pressure`, and a more rigorous procedure should be adopted which is beyond the scope of module2's lesson.
 
 **pm10 vs humidity**
 
@@ -356,6 +356,37 @@ mydata_bg %>%
 As a challenge try to use a scatterplot to investigate a possible relationship between the concentration of the `p10` particles and the `temperature`.
 
 **Happy R coding!!!** 😃🙌💜
+
+---
+
+Using ‘athhlete_events.csv’ file available from https://github.com/TanjaKec/RMarkdown4RR
+(inside the `data` folder) create a RMarkdown report which will:
+
+i)	Examine the structure of the data
+ii)	Select variables that end with letter `t` and start with letter `S`
+iii) Create Body Mass Index variable as $kg/m^2$ (hint: $BMI = Weight / (Height/100)^2$)
+iv)	Filter from data: 
+-	only Serbian teams and save it as `olympicSR`
+-	only Serbian teams from 2000 onward and save it as `olympicSR21c`
+athletes whose weight is bigger than 100kg and height is over 2m (hint: *Don't forget to use == instead of =! and Don't forget the quotes ""*)
+v)	Arrange Serbian athletes in `olympicSR21c`data frame by Height in ascending and descending order.
+vi)	Using olympicSR df
+-	find the youngest athlete
+-	find the heaviest athlete
+vii)	Use `summarise()`:
+-	to print out a summary of olypicSR df containing two variables: max_Age and max_BMI
+-	to print out a summary of olypicSR df containing two variables: mean_Age and mean_BMI
+viii)	Remember:
+
+-	dplyr's  the `group_by()` function enables you to group your data. It allows you to create a separate df that splits the original df by a variable
+-	Function `datatable()` from DT package enables you to display as table on HTML page an R data object that can be filtered, arranged etc
+-	The `boxplot()` function produces boxplot(s) of the given (grouped) values
+
+Knowing about the `group_by()` and `DT::datatable()` functions, find out number of medals per each team?
+
+-	visualise your finding?
+
+
 
 
 

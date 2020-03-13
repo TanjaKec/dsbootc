@@ -12,18 +12,18 @@
     <title>Case Study :: DS Bootcamp in R</title>
 
     
-    <link href="/css/nucleus.css?1584084657" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1584084657" rel="stylesheet">
-    <link href="/css/hybrid.css?1584084657" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1584084657" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1584084657" rel="stylesheet">
-    <link href="/css/auto-complete.css?1584084657" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1584084657" rel="stylesheet">
-    <link href="/css/theme.css?1584084657" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1584084657" rel="stylesheet">
+    <link href="/css/nucleus.css?1584105198" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1584105198" rel="stylesheet">
+    <link href="/css/hybrid.css?1584105198" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1584105198" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1584105198" rel="stylesheet">
+    <link href="/css/auto-complete.css?1584105198" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1584105198" rel="stylesheet">
+    <link href="/css/theme.css?1584105198" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1584105198" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1584084657"></script>
+    <script src="/js/jquery-3.3.1.min.js?1584105198"></script>
 
     <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML"> </script>
 
@@ -59,14 +59,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1584084657"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1584084657"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1584105198"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1584105198"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1584084657"></script>
+<script type="text/javascript" src="/js/search.js?1584105198"></script>
 
     
   </div>
@@ -935,12 +935,55 @@ It would be better to have January showing after December, so we will reorder th
 <p><strong>pm10 vs pressure</strong></p>
 <p>To investigate the relationship between air pressure and concentration of pm10 particles we will create a scatterplot:</p>
 <p><img src="/module2/CaseStudy/_index.en_files/figure-html/unnamed-chunk-18-1.png" width="672" /></p>
-<p>The data is quite messy, with a number of very extreme readings, which is why we “chopped” the axis using the <code>xlim()</code> and the <code>ylim()</code> functions after checking the distributions of the two variables. This is a part of informal investigation of the possible relationship between <code>pm10</code> and <code>pressure</code>, and a more rigorous procedure should be adopted which is beyond the scope of this workshop.</p>
+<p>The data is quite messy, with a number of very extreme readings, which is why we “chopped” the axis using the <code>xlim()</code> and the <code>ylim()</code> functions after checking the distributions of the two variables. This is a part of informal investigation of the possible relationship between <code>pm10</code> and <code>pressure</code>, and a more rigorous procedure should be adopted which is beyond the scope of module2’s lesson.</p>
 <p><strong>pm10 vs humidity</strong></p>
 <p>We will adopt the same approach to investigate a possible relationship between humidity and concentration of the pm10 particles.</p>
 <p><img src="/module2/CaseStudy/_index.en_files/figure-html/unnamed-chunk-19-1.png" width="672" /></p>
 <p>As a challenge try to use a scatterplot to investigate a possible relationship between the concentration of the <code>p10</code> particles and the <code>temperature</code>.</p>
 <p><strong>Happy R coding!!!</strong> 😃🙌💜</p>
+<hr />
+<p>Using ‘athhlete_events.csv’ file available from <a href="https://github.com/TanjaKec/RMarkdown4RR" class="uri">https://github.com/TanjaKec/RMarkdown4RR</a>
+(inside the <code>data</code> folder) create a RMarkdown report which will:</p>
+<ol style="list-style-type: lower-roman">
+<li>Examine the structure of the data</li>
+<li>Select variables that end with letter <code>t</code> and start with letter <code>S</code></li>
+<li>Create Body Mass Index variable as <span class="math inline">\(kg/m^2\)</span> (hint: <span class="math inline">\(BMI = Weight / (Height/100)^2\)</span>)</li>
+<li>Filter from data:</li>
+</ol>
+<ul>
+<li>only Serbian teams and save it as <code>olympicSR</code></li>
+<li>only Serbian teams from 2000 onward and save it as <code>olympicSR21c</code>
+athletes whose weight is bigger than 100kg and height is over 2m (hint: <em>Don’t forget to use == instead of =! and Don’t forget the quotes &quot;&quot;</em>)</li>
+</ul>
+<ol start="22" style="list-style-type: lower-alpha">
+<li>Arrange Serbian athletes in <code>olympicSR21c</code>data frame by Height in ascending and descending order.</li>
+</ol>
+<ol start="6" style="list-style-type: lower-roman">
+<li>Using olympicSR df</li>
+</ol>
+<ul>
+<li>find the youngest athlete</li>
+<li>find the heaviest athlete</li>
+</ul>
+<ol start="7" style="list-style-type: lower-roman">
+<li>Use <code>summarise()</code>:</li>
+</ol>
+<ul>
+<li>to print out a summary of olypicSR df containing two variables: max_Age and max_BMI</li>
+<li>to print out a summary of olypicSR df containing two variables: mean_Age and mean_BMI</li>
+</ul>
+<ol start="8" style="list-style-type: lower-roman">
+<li>Remember:</li>
+</ol>
+<ul>
+<li>dplyr’s the <code>group_by()</code> function enables you to group your data. It allows you to create a separate df that splits the original df by a variable</li>
+<li>Function <code>datatable()</code> from DT package enables you to display as table on HTML page an R data object that can be filtered, arranged etc</li>
+<li>The <code>boxplot()</code> function produces boxplot(s) of the given (grouped) values</li>
+</ul>
+<p>Knowing about the <code>group_by()</code> and <code>DT::datatable()</code> functions, find out number of medals per each team?</p>
+<ul>
+<li>visualise your finding?</li>
+</ul>
 <hr />
 <p>© 2020 Tatjana Kecojevic</p>
 
@@ -1369,19 +1412,19 @@ It would be better to have January showing after December, so we will reorder th
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1584084657"></script>
-    <script src="/js/perfect-scrollbar.min.js?1584084657"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1584084657"></script>
-    <script src="/js/jquery.sticky.js?1584084657"></script>
-    <script src="/js/featherlight.min.js?1584084657"></script>
-    <script src="/js/highlight.pack.js?1584084657"></script>
+    <script src="/js/clipboard.min.js?1584105198"></script>
+    <script src="/js/perfect-scrollbar.min.js?1584105198"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1584105198"></script>
+    <script src="/js/jquery.sticky.js?1584105198"></script>
+    <script src="/js/featherlight.min.js?1584105198"></script>
+    <script src="/js/highlight.pack.js?1584105198"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1584084657"></script>
-    <script src="/js/learn.js?1584084657"></script>
-    <script src="/js/hugo-learn.js?1584084657"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1584105198"></script>
+    <script src="/js/learn.js?1584105198"></script>
+    <script src="/js/hugo-learn.js?1584105198"></script>
 
-    <link href="/mermaid/mermaid.css?1584084657" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1584084657"></script>
+    <link href="/mermaid/mermaid.css?1584105198" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1584105198"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
