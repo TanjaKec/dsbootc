@@ -5,7 +5,7 @@ weight: 4
 ---
 
 ```{r setup, include=FALSE, message = FALSE, warning = FALSE}
-knitr::opts_chunk$set(echo = F,
+knitr::opts_chunk$set(echo = T,
                       include=TRUE,
                       prompt = TRUE,
                       message = FALSE,
