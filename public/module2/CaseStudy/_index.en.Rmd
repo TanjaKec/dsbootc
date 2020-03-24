@@ -361,7 +361,7 @@ As a challenge try to use a scatterplot to investigate a possible relationship b
 
 **YOUR TURN 👇**
 
-Using ‘athhlete_events.csv’ file available from https://github.com/TanjaKec/RMarkdown4RR
+Using ‘athlete_events.csv’ file available from https://github.com/TanjaKec/RMarkdown4RR
 (inside the `data` folder) create a RMarkdown report which will:
 
 i)	Examine the structure of the data
