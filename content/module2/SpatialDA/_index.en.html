@@ -79,7 +79,7 @@ ggplot(serbia_districts) +
   geom_sf()</code></pre>
 <p><img src="/day2/SpatialDA/images/serbia.png?width=40pc" /></p>
 <p>This looks good 😃 Next, we want to add some data to it and do some ‘colouring’. We will incorporate information about the Serbian population in 2017 given “Serbian_Pop.csv” file.</p>
-<pre><code>population &lt;- read.csv(&quot;Serbian_Pop.csv&quot;)
+<pre><code>population &lt;- read.csv(&quot;Serbian_Pop.csv&quot;, fileEncoding = &quot;UTF-8&quot;)
 View(population)
 
 library(dplyr)

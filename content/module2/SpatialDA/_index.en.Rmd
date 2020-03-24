@@ -79,7 +79,7 @@ ggplot(serbia_districts) +
 This looks good 😃 Next, we want to add some data to it and do some 'colouring'. We will incorporate information about the Serbian population in 2017 given "Serbian_Pop.csv" file.  
 
 ```
-population <- read.csv("Serbian_Pop.csv")
+population <- read.csv("Serbian_Pop.csv", fileEncoding = "UTF-8")
 View(population)
 
 library(dplyr)
