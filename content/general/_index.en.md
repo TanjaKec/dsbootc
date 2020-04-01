@@ -13,8 +13,6 @@ weight: 1
 
 ##### At the end of the course, participants will be able to quickly find and implement appropriate analytical methods to answer their own data-related questions. 
 
-#### If you would like to learn to:
-
 * Learn to explore, visualise, and analyse data in a reproducible and shareable manner 
 * Develop an understanding and basic knowledge to model data, to identify patterns and make predictions
 * Develop an understanding of the most commonly used analytical techniques practised in industry today
@@ -23,8 +21,14 @@ weight: 1
 
 #### then this course is for you! 😀
 
-You should have access to a laptop.
+#### You should have access to a laptop.
 
+#### Acknowledgement
+
+>##### During my lecturing career I was incredibly fortunate to work with some truly amazing colleagues who have helped me explore and develop my own teaching philosophy and practice. I gained valuable experience in developing, designing and teaching data analysis modules at varying levels of undergraduate and graduate courses. In particular I mastered my teaching skills by lecturing with George Rawlings and Ian McGowan on decision modelling modules. They taught me how to teach basic statistical concepts, which theoretically may be perceived as complex, in an effective way by emphasising concepts over formulas, engaging students to reason rather than to memorise. 
+>
+>##### The material presented is built on those principles and been enriched by integrating   the vast amount of open and inclusive #rstats community resources. This learning resource is free to use. It is written in [`Rmarkdown`](https://cran.r-project.org/web/packages/rmarkdown/index.html) using [`blogdown`](https://cran.r-project.org/web/packages/blogdown/index.html) package. 
+ 
 
 -----------------------------
 © 2020 Tatjana Kecojevic
